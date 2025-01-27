@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Hanuman:wght@100;300;400;700;900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.title {
+  display: flex;
+  justify-content: space-between;
+}
+.apple-logo {
+  width: 16px;
+  height: 19px;
+}
+.titles {
+  display: flex;
+  gap: 24px;
+  font-family: "Inter", serif;
+  color: #000000;
+  font-size: 12px;
+  font-weight: 400;
+}
+.search-button {
+  width: 14.08px;
+  height: 14.08px;
+}
+.bag-button {
+  width: 12.94px;
+  height: 14.91px;
+}
+.menu-button {
+  width: 18px;
+  height: 18px;
+}
+.donating-title {
+  display: flex;
+  justify-content: center;
+  font-family: "Inter", serif;
+  color: #1d1d1f;
+  font-size: 14px;
+  font-weight: 400;
+  padding: 16px;
+}
+
+.iphone-pro {
+  background-image: url(./Background.png);
+  width: 100vw;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 692px;
+  color: #f5f5f7;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.i16 {
+  font-size: 52px;
+  color: #f5f5f7;
+  font-weight: 600;
+  font-family: "Inter", serif;
+  margin-top: 55px;
+}
+.middle-title {
+  font-size: 24px;
+  font-weight: 400;
+  color: #f5f5f7;
+  font-family: "Inter", serif;
+  margin-top: 16px;
+}
+.learn-button {
+  width: 123px;
+  height: 44px;
+  background-color: #0071e3;
+  font-size: 16px;
+  font-family: "Inter", serif;
+  font-weight: 400;
+  border-radius: 50px;
+  margin-left: 16px;
+}
+.buy-button {
+  width: 68px;
+  height: 44px;
+  font-size: 16px;
+  font-weight: 400;
+  border: 0.37px #2997ff solid;
+  border-radius: 50px;
+}
+.buttons {
+  margin-top: 20px;
+}
