@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Hanuman:wght@100;300;400;700;900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.title {
+  display: flex;
+  justify-content: space-between;
+  background: color #f5f5f7;
+}
+.apple-logo {
+  width: 16px;
+  height: 19px;
+}
+.titles {
+  display: flex;
+  gap: 24px;
+  font-family: "Inter", serif;
+  color: #000000;
+  font-size: 12px;
+  font-weight: 400;
+}
+.search-button {
+  width: 14.08px;
+  height: 14.08px;
+}
+.bag-button {
+  width: 12.94px;
+  height: 14.91px;
+}
+.menu-button {
+  width: 18px;
+  height: 18px;
+}
+.donating-title {
+  /* display: flex; */
+  text-align: center;
+  font-family: "Inter", serif;
+  color: #1d1d1f;
+  font-size: 14px;
+  font-weight: 400;
+  padding: 16px;
+}
+.rainbow-background {
+  display: flex;
+  justify-content: space-between;
+
+  padding-inline: 140px;
+}
+.theme-1 {
+  display: flex;
+  gap: 32px;
+  justify-content: space-around;
+}
+.product-pictures {
+  display: flex;
+  padding-top: 80px;
+}
+.tools {
+  width: 120px;
+  height: 78px;
+  gap: 12px;
+}
+.store-title {
+  font-family: "Inter", serif;
+  font-size: 44px;
+  width: max-content;
+  background-clip: text;
+  color: transparent;
+  background-image: linear-gradient(to right, #0090f7, #ba62fc, #f2416b);
+}
+.gift-magic-title {
+  font-family: "Inter", serif;
+  font-size: 44px;
+  font-weight: 700;
+  color: #6e6e73;
+  align-items: center;
+  display: flex;
+}
+.woman-picture {
+  width: 35px;
+  height: 35px;
+  border-radius: 50px;
+}
+
+.product-pictures {
+  overflow: scroll;
+}
+.shopping-title {
+  font-size: 14px;
+  color: #1d1d1f;
+  font-weight: 700;
+  font-family: "Inter", serif;
+}
+.product-names {
+  font-size: 14px;
+  font-weight: 700;
+  color: #1d1d1f;
+  font-family: "Inter", serif;
+}
+.golden-images {
+  display: flex;
+  width: 480px;
+  height: 500px;
+  gap: 20px;
+}
+.latest-title {
+  display: flex;
+  padding-top: 60px;
+  padding: 24px;
+}
+.section-2 {
+  width: 100vw;
+  height: 558px;
+}
+
+.golden-item {
+  flex-shrink: 0;
+  width: 480px;
+  height: 500px;
+}

@@ -1,14 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Hanuman:wght@100;300;400;700;900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 
 * {
-  box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
-
 .title {
   display: flex;
   justify-content: space-between;
+  background: color #f5f5f7;
 }
 .apple-logo {
   width: 16px;
@@ -35,8 +34,8 @@
   height: 18px;
 }
 .donating-title {
-  display: flex;
-  justify-content: center;
+  /* display: flex; */
+  text-align: center;
   font-family: "Inter", serif;
   color: #1d1d1f;
   font-size: 14px;
@@ -80,6 +79,7 @@
   font-weight: 400;
   border-radius: 50px;
   margin-left: 16px;
+  border: transparent;
 }
 .buy-button {
   width: 68px;
@@ -88,7 +88,403 @@
   font-weight: 400;
   border: 0.37px #2997ff solid;
   border-radius: 50px;
+  background-color: transparent;
+  color: #2997ff;
 }
 .buttons {
   margin-top: 20px;
+}
+.blue-iphone {
+  background-image: url("./image.png");
+  width: 100vw;
+  height: 692px;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.learn-button-2 {
+  width: 123px;
+  height: 44px;
+  background-color: #ffffff;
+  font-size: 16px;
+  font-family: "Inter", serif;
+  font-weight: 400;
+  border-radius: 50px;
+  margin-left: 16px;
+  border: transparent;
+}
+.buy-button-2 {
+  width: 68px;
+  height: 44px;
+  font-size: 16px;
+  font-weight: 400;
+  border: 0.37px #ffffff solid;
+  border-radius: 50px;
+  background-color: transparent;
+  color: #ffffff;
+}
+.gift-magic {
+  background-image: url("./Figure\ \(2\).png");
+  width: 100vw;
+  height: 692px;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.gift-magic-title {
+  font-family: "Inter", serif;
+  font-size: 52px;
+  font-weight: 600;
+  color: #000000;
+  margin-top: 446px;
+}
+.holiday-wish {
+  font-size: 24px;
+  font-family: "Inter", serif;
+  font-weight: 400;
+  color: #000;
+  margin-top: 12px;
+}
+
+.gift-button {
+  width: 114px;
+  height: 44px;
+  background-color: #0071e3;
+  font-size: 16px;
+  font-family: "Inter", serif;
+  font-weight: 400;
+  color: #ffffff;
+  border-radius: 50px;
+  margin-top: 16px;
+  border: transparent;
+}
+
+.six-pictures {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 580px);
+  gap: 12px;
+}
+
+.six-picture {
+  background-image: var(--image-url);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.six-picture-solo {
+  background-image: var(--image-url);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  padding-bottom: 58px;
+}
+
+.apple-logo-1 {
+  width: 26px;
+  height: 32px;
+  color: #000000;
+  margin-right: 7px;
+}
+.title-with-logo {
+  display: flex;
+  margin-top: 58px;
+}
+.pictures-title {
+  font-family: "Inter", serif;
+  font-size: 36px;
+  color: #1d1d1f;
+  font-weight: 600;
+  margin-top: 58px;
+}
+.ipad-air-png {
+  /* width: 430px; */
+  height: 33px;
+  width: 100%;
+  margin-top: 58px;
+}
+.middle-paragraph {
+  color: #1d1d1f;
+  font-size: 18px;
+  margin-top: 9px;
+  font-weight: 400;
+  margin-bottom: 20px;
+  font-family: "Inter", serif;
+}
+.series-10-title {
+  font-size: 15px;
+  font-family: "Inter", serif;
+  font-weight: 700;
+  color: #000000;
+  margin-top: 4px;
+}
+.picture-big-title {
+  font-size: 32px;
+  font-family: "Inter", serif;
+  font-weight: 700;
+  color: #000000;
+}
+.get-button {
+  font-size: 16px;
+  font-family: "Inter", serif;
+  color: #ffffff;
+  width: 167px;
+  height: 40px;
+  background-color: #0071e3;
+  border-radius: 50px;
+  border: transparent;
+}
+.apply-button {
+  width: 112px;
+  height: 40px;
+  border: 1px #0071e3 solid;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Inter", serif;
+  border-radius: 50px;
+  margin-right: 32px;
+  color: #0071e3;
+}
+.rainbow-title {
+  height: 18px;
+  font-size: 14px;
+  font-family: "Inter", serif;
+  color: transparent;
+  width: max-content;
+  background-clip: text;
+  background-image: linear-gradient(
+    to right,
+    #0090f7,
+    #ba62fc,
+    #f2416b,
+    #f55600
+  );
+  margin-top: auto;
+  padding-bottom: 40px;
+}
+.learn-button-white {
+  width: 118px;
+  height: 40px;
+  color: #fff;
+  font-size: 16px;
+  background-color: #0071e3;
+  border: transparent;
+  border-radius: 50px;
+  font-weight: 400;
+}
+.air-pod-pro {
+  color: #f5f5f7;
+  font-size: 36px;
+  font-weight: 600;
+  font-family: "Inter", serif;
+}
+.white-text {
+  font-family: "Inter", serif;
+  color: #f5f5f7;
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 2px;
+  margin-bottom: 10px;
+}
+
+.scroll-image-container {
+  position: relative;
+  width: 1250px;
+  height: 698px;
+  flex-shrink: 0;
+  scroll-snap-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .iphone-pro {
+    height: 650px;
+    background-image: url("./Figure.png");
+  }
+  .blue-iphone {
+    height: 650px;
+    background-image: url("./Figure\ \(1\).png");
+  }
+  .titles {
+    display: none;
+  }
+}
+@media only screen and (max-width: 390px) {
+  .iphone-pro {
+    height: 500px;
+    background-image: url("./iphoneproin\ phone.jpeg");
+    justify-content: flex-end;
+    padding: 36px;
+  }
+  .blue-iphone {
+    height: 500px;
+    background-image: url("./bluephoneinphone.jpeg");
+    justify-content: flex-end;
+    padding: 36px;
+  }
+  .i16 {
+    font-size: 30px;
+  }
+  .middle-title {
+    font-size: 18px;
+  }
+  .learn-button {
+    width: 107px;
+    height: 36px;
+    font-size: 14px;
+  }
+  .buy-button {
+    width: 66px;
+    height: 36px;
+    font-size: 14px;
+  }
+  .gift-magic {
+    display: none;
+  }
+  .six-pictures {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(6, 500px);
+  }
+  .middle-paragraph {
+    text-align: center;
+  }
+  .air-pod-pro {
+    font-size: 30px;
+  }
+  .picture-big-title {
+    font-size: 28px;
+  }
+  .pictures-title {
+    font-size: 28px;
+  }
+  .learn-button-white {
+    font-size: 14px;
+  }
+  .buy-button {
+    font-size: 14px;
+  }
+  .apply-button {
+    margin: 0;
+    font-size: 14px;
+  }
+  .get-button {
+    font-size: 14px;
+  }
+  .sixth-button {
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+  }
+  .scroll-image {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+  .scroll-image-container {
+    width: 274px;
+    height: 300px;
+  }
+}
+.scroll-images {
+  display: flex;
+  overflow-x: scroll;
+  width: 100vw;
+  gap: 10px;
+  scroll-snap-type: x mandatory;
+  scrollbar-width: none;
+}
+
+.scroll-image {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.stream-button {
+  width: 133px;
+  height: 44px;
+  background-color: #f5f5f7;
+  border-radius: 50px;
+  border: transparent;
+  font-size: 17px;
+  font-family: "Inter", serif;
+  color: #000000;
+}
+.scroll-images-paragraph {
+  font-size: 17px;
+  font-weight: 700;
+  color: #fff;
+  font-family: "Inter", serif;
+}
+.second-picture-text {
+  display: flex;
+  position: absolute;
+  align-items: center;
+  gap: 20px;
+  left: 70px;
+  bottom: 70px;
+  color: red;
+}
+.second-scrolls {
+  display: flex;
+  overflow-x: scroll;
+  width: 100vw;
+  gap: 10px;
+  scroll-snap-type: x mandatory;
+  scrollbar-width: none;
+}
+.scroll-background-grey {
+  width: 417px;
+  height: 236px;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  background-color: #1b2632;
+}
+
+.rb-picture {
+  width: 196px;
+  height: 196px;
+  margin-left: 15px;
+}
+.pink-picture {
+  width: 196px;
+  height: 196px;
+  margin-left: 15px;
+}
+.scroll-background-pink {
+  width: 417px;
+  height: 236px;
+  background-color: #ebb799;
+  flex-shrink: o;
+  display: flex;
+  align-items: center;
+}
+.scrolls-paragraph {
+  font-size: 14px;
+  font-weight: 600;
+  color: #fff;
+  font-family: "Inter", serif;
+  position: absolute;
+  left: 15px;
+  bottom: 20px;
+}
+.second-scroll {
+  position: relative;
+}
+.rb-paragraph {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  font-family: "Inter", serif;
+  margin-left: 15px;
 }
