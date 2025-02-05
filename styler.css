@@ -44,7 +44,7 @@
 }
 
 .iphone-pro {
-  background-image: url(./Background.png);
+  background-image: url(./images/Background.png);
   width: 100vw;
   background-position: center;
   background-size: cover;
@@ -95,7 +95,7 @@
   margin-top: 20px;
 }
 .blue-iphone {
-  background-image: url("./image.png");
+  background-image: url("./images/image.png");
   width: 100vw;
   height: 692px;
   background-position: center;
@@ -125,7 +125,7 @@
   color: #ffffff;
 }
 .gift-magic {
-  background-image: url("./Figure\ \(2\).png");
+  background-image: url("./images/Figure\ \(2\).png");
   width: 100vw;
   height: 692px;
   background-position: center;
