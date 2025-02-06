@@ -182,9 +182,6 @@ img {
   left: 30px;
   gap: 9px;
 }
-.airpod-section {
-  gap: 20px;
-}
 .colors {
   width: 12px;
   height: 12px;
@@ -199,6 +196,12 @@ img {
   width: 230px;
   height: 230px;
 }
+.airpod-pictures {
+  width: 313px;
+  height: 500px;
+  border-radius: 10px;
+  box-shadow: 2px 4px 12px 0 rgba(0, 0, 0, 0.8);
+}
 .white-box {
   width: 313px;
   height: 500px;
@@ -211,6 +214,7 @@ img {
 
 .airpods-section {
   display: flex;
+  gap: 20px;
 }
 .child-picture {
   position: absolute;
@@ -282,23 +286,30 @@ img {
   height: 500px;
   background-size: cover;
   background-position: center;
+  border-radius: 10px;
+  box-shadow: 2px 4px 12px 0 rgba(0, 0, 0, 0.8);
 }
 .container {
   width: 400px;
   height: 500px;
-  background-color: palevioletred;
+  position: relative;
+  border-radius: 10px;
+  box-shadow: 2px 4px 12px 0 rgba(0, 0, 0, 0.8);
 }
 .yellow-iphone {
   background-image: url(./images/3-2.jpeg);
   width: 230px;
   height: 230px;
   background-size: cover;
-  background-position: center;
 }
 .yellow-colors {
   display: flex;
   width: 12px;
   height: 12px;
+  gap: 5px;
+  position: absolute;
+  bottom: 160px;
+  left: 115px;
 }
 .speaker {
   background-image: url(./images/3-3.jpeg);
@@ -320,4 +331,38 @@ img {
 }
 .section-3 {
   display: flex;
+  gap: 20px;
+}
+.yellow-iphone {
+  position: absolute;
+  top: 71px;
+  left: 45px;
+}
+.speaker {
+  position: absolute;
+  top: 71px;
+  left: 45px;
+}
+.ipadair-11 {
+  position: absolute;
+  top: 71px;
+  left: 45px;
+}
+.blue-headphone {
+  position: absolute;
+  top: 71px;
+  left: 45px;
+}
+.text-box {
+  position: absolute;
+  bottom: 32px;
+  left: 28px;
+}
+.surprise-title {
+  font-size: 26px;
+  color: #1d1d1f;
+  font-weight: 700;
+  font-family: "Inter", serif;
+  padding-top: 54px;
+  left: 30px;
 }
