@@ -192,6 +192,8 @@ img {
 .airpods-pictures {
   width: 400px;
   height: 500px;
+  box-shadow: 2px 4px 12px 0 rgba(0, 0, 0, 0.8);
+  border-radius: 10px;
 }
 .airpods-picture {
   width: 230px;
@@ -201,6 +203,9 @@ img {
   width: 313px;
   height: 500px;
   flex-shrink: 0;
+  position: relative;
+  box-shadow: 2px 4px 12px 0 rgba(0, 0, 0, 0.8);
+  border-radius: 10px;
   position: relative;
 }
 
@@ -235,16 +240,84 @@ img {
   color: #1d1d1f;
   font-weight: 400;
   font-family: "Inter", serif;
-  padding: ;
+  padding-top: 32px;
 }
 .texts {
   position: absolute;
   left: 28px;
-  bottom: 32px;
+  bottom: 80px;
 }
 
 .airpodcolors {
   display: flex;
-  flex-direction: column;
+  position: absolute;
+  left: 50%;
+  top: 60%;
+  gap: 10px;
+  transform: translateX(-50%);
+}
+.holiday-title {
+  display: flex;
   align-items: center;
+  padding-top: 60px;
+  padding: 24px;
+}
+.rainbow-holiday-title {
+  font-size: 24px;
+  font-weight: 700;
+  font-family: "Inter", serif;
+  width: max-content;
+  color: transparent;
+  background-clip: text;
+  background-image: linear-gradient(#0090f7, #ba62fc, #f2416b);
+}
+.addmore-title {
+  font-size: 24px;
+  color: #6e6e73;
+  font-weight: 700;
+}
+.green-ipad {
+  background-image: url(./images/3-1.jpeg);
+  width: 400px;
+  height: 500px;
+  background-size: cover;
+  background-position: center;
+}
+.container {
+  width: 400px;
+  height: 500px;
+  background-color: palevioletred;
+}
+.yellow-iphone {
+  background-image: url(./images/3-2.jpeg);
+  width: 230px;
+  height: 230px;
+  background-size: cover;
+  background-position: center;
+}
+.yellow-colors {
+  display: flex;
+  width: 12px;
+  height: 12px;
+}
+.speaker {
+  background-image: url(./images/3-3.jpeg);
+  width: 230px;
+  height: 230px;
+  background-size: cover;
+}
+.ipadair-11 {
+  background-image: url(./images/3-4.jpeg);
+  width: 230px;
+  height: 230px;
+  background-size: cover;
+}
+.blue-headphone {
+  background-image: url(./images/3-5.jpeg);
+  width: 230px;
+  height: 230px;
+  background-size: cover;
+}
+.section-3 {
+  display: flex;
 }
